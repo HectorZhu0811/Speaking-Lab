@@ -1,0 +1,5 @@
+{
+  "name": "[API]IELTS Speaking 2025 Card Picker",
+  "description": "A study tool for the September-December 2025 IELTS Speaking question bank. Randomly draws topics for Part 1, 2, and 3 to simulate exam conditions.",
+  "requestFramePermissions": []
+}

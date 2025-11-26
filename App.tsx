@@ -6,7 +6,7 @@ import FocusModal from './components/FocusModal';
 import GlobalTimer from './components/GlobalTimer';
 import { PART1_TOPICS, PART23_TOPICS } from './data';
 import { PartType, CardData, TopicPart23, ContentItem, AppMode } from './types';
-import { RefreshCw, LayoutGrid, Layers, Mic2, MessageCircle, Dices, BookOpen, GraduationCap, PlayCircle } from 'lucide-react';
+import { RefreshCw, Layers, Mic2, MessageCircle, Dices, BookOpen, GraduationCap, PlayCircle } from 'lucide-react';
 
 // Visual assets
 const GRADIENTS = [
@@ -332,7 +332,6 @@ const App: React.FC = () => {
               >
                 <FlipCard 
                   data={card} 
-                  index={index} 
                   onClick={() => setActiveCard(card)}
                   showTitle={mode === 'practice'} 
                 />

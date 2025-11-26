@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { CardData, PartType, ContentItem } from '../types';
+import { CardData, PartType } from '../types';
 import { X, RotateCcw, ArrowRight, Lightbulb, Sparkles, Eye, EyeOff, MessageCircle, ListChecks } from 'lucide-react';
 import Part2Timer from './Part2Timer';
 

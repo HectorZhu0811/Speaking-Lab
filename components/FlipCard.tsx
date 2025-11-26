@@ -4,12 +4,12 @@ import { CardData } from '../types';
 
 interface FlipCardProps {
   data: CardData;
-  index: number;
+  index?: number; // Kept as optional in interface for compatibility if needed elsewhere, but removed from destructuring
   onClick: () => void;
   showTitle: boolean;
 }
 
-const FlipCard: React.FC<FlipCardProps> = ({ data, index, onClick, showTitle }) => {
+const FlipCard: React.FC<FlipCardProps> = ({ data, onClick, showTitle }) => {
   return (
     <div 
       className="group w-full h-80 md:h-96 perspective-1000 cursor-pointer select-none"

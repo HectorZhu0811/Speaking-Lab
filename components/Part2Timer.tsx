@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect } from 'react';
-import { Play, RotateCcw, Mic, BrainCircuit } from 'lucide-react';
+import { RotateCcw, Mic, BrainCircuit } from 'lucide-react';
 
 type TimerMode = 'idle' | 'prep' | 'talk';
 
